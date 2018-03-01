@@ -70,4 +70,28 @@
 
 .header__page-header {
     grid-row: 2 / 3;
+    justify-self: center;
+    color:#fff;
+    font-size:99px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.header__page-header-title {
+    display: inline-block;
+}
+
+.blinking-cursor {
+    border:7px solid #fff;
+    display: inline-block;
+    width:62px;
+    animation: 1s blink step-end infinite;
+}
+  
+@keyframes blink {
+    from, to {
+        border:7px solid #fff;
+    }
+    50% {
+        border:7px solid transparent;
+    }
 }
