@@ -22,6 +22,10 @@ module.exports = {
                 }
             },
             {
+                test: /\.(png|jpg|gif)$/,
+                loader: 'url-loader'
+            },
+            {
                 test: /\.css|\.scss$/,
                 use: extractSass.extract({
                     fallback: 'style-loader',
