@@ -95,3 +95,84 @@
         border:7px solid transparent;
     }
 }
+
+.main {
+    margin:88px 250px 40px 250px;
+}
+
+.fragment__item {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+.fragment__paragraph {
+    flex-basis:550px;
+    align-self: center;
+}
+
+.fragment__featured-image {
+    flex-basis:550px;
+    border:4px solid transparent;
+    padding:0 0 50px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.fragment__subtitle {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#8b0000;
+    font-size:26px;
+    line-height: 7px;
+    font-weight: normal;
+    margin-bottom:0;
+    margin-top:0;
+}
+
+.fragment__title {
+    font-family: 'Anton', sans-serif;
+    color:#414141;
+    font-size:48px;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    text-shadow: rgba(0, 0, 0, 0.298039) 0px 5px 0px;
+    line-height: 1.5em;
+    margin-top:0.4em;
+    margin-bottom:0.6em;
+}
+
+.fragment__content {
+    font-family: 'Raleway', sans-serif;
+    font-size:21px;
+    line-height: 1.4em;
+    color:#000;
+    text-indent:2.2em;
+    letter-spacing: 0.05em;
+    color:#414141;
+}
+
+.fragment__button {
+    font-family: Helvetica, sans-serif;
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top:43px;
+    margin-bottom:47px;
+}
+
+.fragment__button a {
+    background-color: rgba(139, 0, 0, 1);
+    border:solid rgba(183, 18, 27, 1) 3px;
+    border-radius: 50px;
+    padding:12px;
+    transition: .4s color, .4s background-color;
+    color:#fff;
+    text-decoration: none;
+}
+
+.fragment__button a:hover {
+    color:rgb(255, 0, 13);
+    background-color:#fff;
+    border:solid rgb(255, 0, 13) 3px;
+}
