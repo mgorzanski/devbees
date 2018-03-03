@@ -143,6 +143,17 @@
     margin-bottom:0.6em;
 }
 
+.fragment__title--dark {
+    color:#414141;
+    text-shadow: #ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
+    letter-spacing: 0.33em;
+    font-size:55px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top:29px;
+    margin-bottom:0;
+}
+
 .fragment__content {
     font-family: 'Raleway', sans-serif;
     font-size:21px;
@@ -155,12 +166,12 @@
 
 .fragment__button {
     font-family: Helvetica, sans-serif;
-    font-size:25px;
+    font-size:29px;
     font-weight: bold;
     text-align: center;
     position: relative;
-    top:43px;
-    margin-bottom:47px;
+    top:59px;
+    margin-bottom:64px;
 }
 
 .fragment__button a {
@@ -177,4 +188,36 @@
     color:rgb(255, 0, 13);
     background-color:#fff;
     border:solid rgb(255, 0, 13) 3px;
+}
+
+.fragment--bg-red {
+    background-color:#D94141;
+    position: relative;
+    top:40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fragment--tight {
+    padding:0 160px 0 160px;
+}
+
+.fragment__content--white {
+    font-family: 'Montserrat', sans-serif;
+    font-size:22px;
+    color:#fff;
+    text-shadow:#c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+    text-indent: 0;
+    text-align: center;
+    margin-top:0;
+}
+
+.fragment__content--white p {
+    padding-bottom:15px;
+}
+
+.fragment__content--white p img {
+    box-shadow: 11.94px 14.78px 5px 12px rgba(0,0,0,0.11);
+    border:5px solid rgba(0, 0, 0, 1);
 }
