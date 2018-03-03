@@ -9,7 +9,8 @@
     display:grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto;
-    padding-top:31px;
+    padding-top:36px;
+    height:90vh;
 }
 
 .header__nav {
@@ -72,8 +73,8 @@
     grid-row: 2 / 3;
     justify-self: center;
     color:#fff;
-    font-size:99px;
-    font-family: 'Anonymous Pro', monospace;
+    font-size:59px;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .header__page-header-title {
@@ -84,7 +85,7 @@
     border:7px solid #fff;
     display: inline-block;
     width:62px;
-    animation: 1s blink step-end infinite;
+    animation: .65s blink step-end infinite;
 }
   
 @keyframes blink {
