@@ -243,7 +243,7 @@
     display:flex;
     justify-content: space-between;
     text-indent:0;
-    min-height:900px;
+    min-height:795px;
 }
 
 .fragment__item-left, .fragment__item-center, .fragment__item-right {
@@ -273,4 +273,69 @@
 .fragment__item-image img {
     border-radius:50%;
     box-shadow: 3.51px 7.19px 11px 0px rgba(0,0,0,0.5);
+}
+
+.fragment__title--contact {
+    color:#414141;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:81px;
+    text-shadow: #ffffff 3px 3px 0px, rgba(0, 0, 0, 0.2) 6px 6px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fragment__content--form {
+    margin:105px 100px 0 100px;
+    text-indent: 0;
+}
+
+.form-input {
+    padding:5px 10px;
+    font-family:'Raleway', sans-serif;
+    color:#414141;
+    box-shadow: 4.11px 5.66px 0px 0px rgba(0,0,0,0.39);
+    border:4px solid rgba(183, 18, 27, 1);
+    width:100%;
+    margin-bottom:12px;
+}
+
+.form-textarea-row {
+    height: 150px;
+    width:calc(100% + 27px);
+    box-sizing: border-box;
+    overflow: hidden;
+    border:4px solid rgba(183, 18, 27, 1);
+    box-shadow: 4.11px 5.66px 0px 0px rgba(0,0,0,0.39);
+}
+
+.form-textarea {
+    border:0;
+    overflow: hidden;
+    resize: none;
+    margin:0;
+    height:85%;
+    padding:5px 10px;
+    font-family:'Raleway', sans-serif;
+    color:#414141;
+    outline:none;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.form-button-row {
+    display:flex;
+    justify-content: center;
+}
+
+.form-button {
+    text-align:center;
+    border:3px solid rgba(183, 18, 27, 1);
+    background-color: rgba(217, 65, 65, 1);
+    color:#fff;
+    min-width:150px;
+    min-height: 55px;
+    line-height: 55px;
+    margin:-19px auto 15px auto;
+    display:block;
+    font-family:'Raleway', sans-serif;
 }
