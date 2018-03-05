@@ -159,6 +159,7 @@
     text-transform: uppercase;
     padding-top:27px;
     margin-bottom:0;
+    grid-column: 2 / 3;
 }
 
 .fragment__title--red {
@@ -213,7 +214,10 @@
     flex-direction: column;
     justify-content: center;
     grid-column: 1 / 4;
-    padding:0 450px 0 450px;
+    //padding:0 450px 0 450px;
+    display:grid;
+    grid-template-columns: 2fr 4.5fr 2fr;
+    grid-template-rows: auto;
 }
 
 .fragment--tight {
@@ -228,6 +232,7 @@
     text-indent: 0;
     text-align: center;
     margin-top:0;
+    grid-column: 2 / 3;
 }
 
 .fragment__content--white p {
@@ -237,6 +242,7 @@
 .fragment__content--white p img {
     box-shadow: 11.94px 14.78px 5px 12px rgba(0,0,0,0.11);
     border:5px solid rgba(0, 0, 0, 1);
+    width:90%;
 }
 
 .fragment__content--sections {
