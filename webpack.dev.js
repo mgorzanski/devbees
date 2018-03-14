@@ -2,6 +2,7 @@ const path = require("path");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const extractSass = new ExtractTextPlugin('./../stylesheets/app.css');
 const webpack = require('webpack');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
     entry: "./_javascript/main.js",
@@ -31,7 +32,12 @@ module.exports = {
                     fallback: 'style-loader',
                     use: [
                         { loader: "css-loader", options: { sourceMap: true } },
-                        { loader: "postcss-loader", options: { sourceMap: true } },
+                        { loader: "postcss-loader", options: {
+                            sourceMap: true,
+                            plugins: function () {
+                                return [autoprefixer({ grid: true })];
+                            }
+                        } },
                         { loader: "sass-loader", options: { sourceMap: true } }
                     ]
                 })
