@@ -35,7 +35,7 @@ module.exports = {
                         { loader: "postcss-loader", options: {
                             sourceMap: true,
                             plugins: function () {
-                                return [autoprefixer({ grid: true })];
+                                return [autoprefixer({ grid: false })];
                             }
                         } },
                         { loader: "sass-loader", options: { sourceMap: true } }
