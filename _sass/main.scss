@@ -241,6 +241,10 @@
     padding:0 12.5em 0 12.5em;
 }
 
+.fragment--medium {
+    padding:0 6em 0 6em;
+}
+
 .fragment__content--white {
     font-family: 'Montserrat', sans-serif;
     font-size:1.2em;
@@ -275,16 +279,16 @@
 
 .fragment__item-left {
     margin-top:5.238095238095238em;
-    flex-basis:13.333333333333334em;
+    flex-basis:29%;
 }
 
 .fragment__item-center {
-    flex-basis:18.095238095238095em;
+    flex-basis:29%;
 }
 
 .fragment__item-right {
     margin-top:5.238095238095238em;
-    flex-basis:13.333333333333334em;
+    flex-basis:29%;
 }
 
 .fragment__item-left p, .fragment__item-center p, .fragment__item-right p {
