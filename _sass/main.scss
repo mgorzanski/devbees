@@ -271,8 +271,19 @@
 
 .fragment__item-left, .fragment__item-center, .fragment__item-right {
     text-align:center;
-    margin:1.5em 0.3em 0 0.3em;
     flex:1;
+}
+
+.fragment__item-left {
+    margin:1.5em 2em 0 0;
+}
+
+.fragment__item-center {
+    margin: 1.5em 2em 0 2em;
+}
+
+.fragment__item-right {
+    margin: 1.5em 0 0 2em;
 }
 
 .fragment__item-left p, .fragment__item-center p, .fragment__item-right p {
